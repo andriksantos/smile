@@ -467,7 +467,7 @@ parcelRequire = function(e, r, t, n) {
                 o.textContent = "Preparing…";
                 var r = document.getElementsByTagName("audio")[0];
                 r.addEventListener("play", function() {
-                    o.parentNode.removeChild(o), a.element.classList.add("cue-in"), a.element.style.display = "block", document.title = "Conga!"
+                    o.parentNode.removeChild(o), a.element.classList.add("cue-in"), a.element.style.display = "block", document.title = "Smile at life!"
                 });
                 var d = document.createElement("button");
                 d.textContent = "Trust me", d.addEventListener("click", function(e) {
