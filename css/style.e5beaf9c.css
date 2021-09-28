@@ -77,4 +77,22 @@ audio {
     animation: Cue-In 2s ease-in-out
 }
 
-/*# sourceMappingURL=style.e5beaf9c.css.map */
+@media screen and (max-width: 992px) {
+    button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+  
